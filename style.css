@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 32vw;
+    gap: 30vw;
 }
 
 .Mark-all-as-read {
