@@ -140,10 +140,11 @@ body {
 @media only screen and (max-width: 600px) {
     .main-container {
         padding: 0px;
-        width: 80%;
+        margin: 0;
+        width: 100%;
     }
     .nav {
-        width: 80%;
+        width: 90%;
         margin: auto;
         gap: 17vw;
     }
@@ -160,8 +161,10 @@ body {
         font-size: 14px;
     }
     .Notification {
-        padding: 10px 36px;
+        width: 95%;
+        margin: auto;
         font-size: 12px;
+        padding: 0;
     }
     .Notification .User4 .message-notif  {
         padding: 5px;
@@ -174,6 +177,10 @@ body {
     .Notification img {
         height: 30px;
      }
+     .Notification .User1, .User2, .User3, .User4, .User5, .User6, .User7 {
+        gap: 10px;
+    }
+    
 }
 
 
